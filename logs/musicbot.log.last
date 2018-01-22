@@ -1,0 +1,102 @@
+[25.567054749] 2018-01-22 18:13:03,705 - INFO - launcher: Starting sanity checks
+[26.077270508] 2018-01-22 18:13:03,705 - INFO - launcher: Checking for Python 3.5+
+[26.077270508] 2018-01-22 18:13:03,705 - INFO - launcher: Checking console encoding
+[26.569604874] 2018-01-22 18:13:03,706 - INFO - launcher: Setting console encoding to UTF-8
+[26.569604874] 2018-01-22 18:13:03,706 - INFO - launcher: Ensuring we're in the right environment
+[27.572393417] 2018-01-22 18:13:03,707 - INFO - launcher: Adding local bins/ folder to path
+[28.575658798] 2018-01-22 18:13:03,708 - INFO - launcher: Required checks passed.
+[28.575658798] 2018-01-22 18:13:03,708 - INFO - launcher: Optional checks passed.
+[29.076337814] 2018-01-22 18:13:03,708 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.9090251922607422] 2018-01-22 18:13:04,588 - WARNING - musicbot.config | In config.py::MainThread(4336), line 236 in find_autoplaylist: No autoplaylist file found.
+[1.0241508483886719] 2018-01-22 18:13:04,704 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 213 in _setup_logging: Set logging level to INFO
+[1.0241508483886719] 2018-01-22 18:13:04,704 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 80 in __init__: =========== MusicBot (version 1.9.6_2) ===========
+[1.0255699157714844] 2018-01-22 18:13:04,705 - WARNING - musicbot.bot | In bot.py::MainThread(4336), line 83 in __init__: Autoplaylist is empty, disabling.
+[1.027069092] launcher-INFO: Connecting
+[3.7557492256164551] 2018-01-22 18:13:07,435 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 1011 in on_ready: Connection established, ready to go.
+[3.7557492256164551] 2018-01-22 18:13:07,435 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 324 in _cache_app_info: Caching app info
+[3.8946802616119385] 2018-01-22 18:13:07,574 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[3.8951528072357178] 2018-01-22 18:13:07,575 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 844 in _scheck_server_permissions: Checking server permissions
+[3.8956561088562012] 2018-01-22 18:13:07,575 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[3.8956561088562012] 2018-01-22 18:13:07,575 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 852 in _scheck_configs: Validating config
+[3.8956561088562012] 2018-01-22 18:13:07,575 - DEBUG - musicbot.config | In config.py::MainThread(4336), line 155 in async_validate: Validating options...
+[3.8956561088562012] 2018-01-22 18:13:07,575 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 855 in _scheck_configs: Validating permissions config
+[3.8956561088562012] 2018-01-22 18:13:07,575 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4336), line 59 in async_validate: Validating permissions...
+[3.8961558341979980] 2018-01-22 18:13:07,576 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1022 in on_ready: Connected to Discord!
+[3.8966574668884277] 2018-01-22 18:13:07,576 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1032 in on_ready: Bot:   404744890791100417/Maple#0450 [BOT]
+[3.8971712589263916] 2018-01-22 18:13:07,577 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1040 in on_ready: Owner: 296044697023938560/Kirihiko#5227
+
+[3.8976612091064453] 2018-01-22 18:13:07,577 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1043 in on_ready: Server List:
+[3.8976612091064453] 2018-01-22 18:13:07,577 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1044 in <listcomp>:  - しがつのきょう
+[3.8981623649597168] 2018-01-22 18:13:07,578 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1088 in on_ready: Not bound to any text channels
+[3.8986625671386719] 2018-01-22 18:13:07,578 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1114 in on_ready: Not autojoining any voice channels
+[3.8991646766662598] 2018-01-22 18:13:07,579 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1118 in on_ready: Options:
+[3.8991646766662598] 2018-01-22 18:13:07,579 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1120 in on_ready:   Command prefix: !
+[3.8996648788452148] 2018-01-22 18:13:07,579 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1121 in on_ready:   Default volume: 25%
+[3.9001662731170654] 2018-01-22 18:13:07,580 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[3.9001662731170654] 2018-01-22 18:13:07,580 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[3.9006679058074951] 2018-01-22 18:13:07,580 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1125 in on_ready:   Auto-Summon: Disabled
+[3.9006679058074951] 2018-01-22 18:13:07,580 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1126 in on_ready:   Auto-Playlist: Disabled
+[3.9011690616607666] 2018-01-22 18:13:07,581 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1127 in on_ready:   Auto-Pause: Enabled
+[3.9016704559326172] 2018-01-22 18:13:07,581 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1128 in on_ready:   Delete Messages: Disabled
+[3.9021756649017334] 2018-01-22 18:13:07,582 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1131 in on_ready:   Debug Mode: Disabled
+[3.9021756649017334] 2018-01-22 18:13:07,582 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1132 in on_ready:   Downloaded songs will be saved
+[11.3421652317047119] 2018-01-22 18:13:15,022 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2395 in on_message: 296044697023938560/Kirihiko#5227: !summon
+[11.3431687355041504] 2018-01-22 18:13:15,023 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 1804 in cmd_summon: Joining しがつのきょう/maki
+[11.3436686992645264] 2018-01-22 18:13:15,023 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 437 in get_voice_client: Connection attempt 1 to maki
+[11.3436686992645264] 2018-01-22 18:13:15,023 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4336), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[11.3441717624664307] 2018-01-22 18:13:15,024 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4336), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[11.3441717624664307] 2018-01-22 18:13:15,024 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4336), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[11.4727995395660400] 2018-01-22 18:13:15,152 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4336), line 2564 in on_voice_state_update: Voice state update for 404744890791100417/Maple#0450 on しがつのきょう/maki -> [JOIN, CONNECT]
+[11.4727995395660400] 2018-01-22 18:13:15,152 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2575 in on_voice_state_update: 404744890791100417/Maple#0450 has joined しがつのきょう/maki
+[11.4743072986602783] 2018-01-22 18:13:15,154 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4336), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[11.8076658248901367] 2018-01-22 18:13:15,487 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4336), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[12.0259912014007568] 2018-01-22 18:13:15,705 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4336), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[12.0259912014007568] 2018-01-22 18:13:15,705 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 463 in get_voice_client: Connected in 0.7s
+[12.0259912014007568] 2018-01-22 18:13:15,705 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 464 in get_voice_client: Connected to しがつのきょう/maki
+[12.0269732475280762] 2018-01-22 18:13:15,706 - VOICEDEBUG - musicbot.player | In player.py::MainThread(4336), line 311 in websocket_check: Starting websocket check loop for しがつのきょう
+[22.5149509906768799] 2018-01-22 18:13:26,194 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2395 in on_message: 296044697023938560/Kirihiko#5227: !play hello
+[30.7122099399566650] 2018-01-22 18:13:34,392 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 781 in serialize_queue: Serializing queue for 359257673025191936
+[30.7131807804107666] 2018-01-22 18:13:34,393 - INFO - musicbot.entry | In entry.py::MainThread(4336), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=YQHsXMglC9A
+[38.9765686988830566] 2018-01-22 18:13:42,656 - INFO - musicbot.entry | In entry.py::MainThread(4336), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=YQHsXMglC9A
+[38.9790759086608887] 2018-01-22 18:13:42,658 - FFMPEG - musicbot.player | In player.py::MainThread(4336), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-YQHsXMglC9A-Adele_-_Hello.webm
+[39.3417897224426270] 2018-01-22 18:13:43,021 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 781 in serialize_queue: Serializing queue for 359257673025191936
+[64.1626005172729492] 2018-01-22 18:14:07,842 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2395 in on_message: 358357526582001664/Krekasso17#7913: !play windows earrape
+[64.1636025905609131] 2018-01-22 18:14:07,843 - ERROR - musicbot.bot | In bot.py::MainThread(4336), line 2515 in on_message: Error in play: PermissionsError: You don't have permission to use that command.
+Reason: you cannot use this command when not in the voice channel (maki)
+Traceback (most recent call last):
+  File "C:\Users\Lucas\Desktop\Maple\MusicBot\musicbot\bot.py", line 2407, in on_message
+    await self._check_ignore_non_voice(message)
+  File "C:\Users\Lucas\Desktop\Maple\MusicBot\musicbot\bot.py", line 320, in _check_ignore_non_voice
+    "you cannot use this command when not in the voice channel (%s)" % vc.name, expire_in=30)
+musicbot.exceptions.PermissionsError: you cannot use this command when not in the voice channel (maki)
+[121.0057995319366455] 2018-01-22 18:15:04,685 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4336), line 2564 in on_voice_state_update: Voice state update for 319866040576114688/Ralf0206#3440 on しがつのきょう/maki -> [JOIN, CONNECT]
+[121.0057995319366455] 2018-01-22 18:15:04,685 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2575 in on_voice_state_update: 319866040576114688/Ralf0206#3440 has joined しがつのきょう/maki
+[187.7333030700683594] 2018-01-22 18:16:11,413 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2395 in on_message: 319866040576114688/Ralf0206#3440: !pause
+[187.7342851161956787] 2018-01-22 18:16:11,414 - ERROR - musicbot.bot | In bot.py::MainThread(4336), line 2515 in on_message: Error in pause: PermissionsError: You don't have permission to use that command.
+Reason: This command is not enabled for your group (Default).
+Traceback (most recent call last):
+  File "C:\Users\Lucas\Desktop\Maple\MusicBot\musicbot\bot.py", line 2477, in on_message
+    expire_in=20)
+musicbot.exceptions.PermissionsError: This command is not enabled for your group (Default).
+[201.3693366050720215] 2018-01-22 18:16:25,049 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2395 in on_message: 296044697023938560/Kirihiko#5227: !pause
+[231.1890628337860107] 2018-01-22 18:16:54,868 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2395 in on_message: 296044697023938560/Kirihiko#5227: !play miiro
+[235.7220816612243652] 2018-01-22 18:16:59,401 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 781 in serialize_queue: Serializing queue for 359257673025191936
+[235.7230844497680664] 2018-01-22 18:16:59,402 - INFO - musicbot.entry | In entry.py::MainThread(4336), line 195 in _download: Download cached: https://www.youtube.com/watch?v=weMUM1YH9Ck
+[246.6807019710540771] 2018-01-22 18:17:10,360 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2395 in on_message: 296044697023938560/Kirihiko#5227: !skip
+[246.7240819931030273] 2018-01-22 18:17:10,403 - FFMPEG - musicbot.player | In player.py::MainThread(4336), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-weMUM1YH9Ck-Vietsub_Miiro_KanColle_Opening.m4a
+[246.7300956249237061] 2018-01-22 18:17:10,409 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 781 in serialize_queue: Serializing queue for 359257673025191936
+[246.7315993309020996] 2018-01-22 18:17:10,411 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 781 in serialize_queue: Serializing queue for 359257673025191936
+[285.0186498165130615] 2018-01-22 18:17:48,698 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2395 in on_message: 319866040576114688/Ralf0206#3440: !play owari no sekai kara
+[289.7094743251800537] 2018-01-22 18:17:53,389 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 781 in serialize_queue: Serializing queue for 359257673025191936
+[289.7109534740447998] 2018-01-22 18:17:53,390 - INFO - musicbot.entry | In entry.py::MainThread(4336), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=OJrofmDpTXs
+[298.3485672473907471] 2018-01-22 18:18:02,028 - INFO - musicbot.entry | In entry.py::MainThread(4336), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=OJrofmDpTXs
+[461.1414341926574707] 2018-01-22 18:20:44,821 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2395 in on_message: 115192081638490114/Lari#6370: !skip that skit
+[461.1514358520507812] 2018-01-22 18:20:44,831 - FFMPEG - musicbot.player | In player.py::MainThread(4336), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-OJrofmDpTXs-Flaming_June_Maeda_Jun_x_Yanagi_Nagi_Owari_no_Sekai_Kara_-romaji_lyrics-_English_translation.webm
+[461.1594574451446533] 2018-01-22 18:20:44,839 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 781 in serialize_queue: Serializing queue for 359257673025191936
+[461.1614618301391602] 2018-01-22 18:20:44,841 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 781 in serialize_queue: Serializing queue for 359257673025191936
+[728.7521393299102783] 2018-01-22 18:25:12,431 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4336), line 2564 in on_voice_state_update: Voice state update for 358357526582001664/Krekasso17#7913 on しがつのきょう/maki -> [JOIN, CONNECT]
+[728.7526407241821289] 2018-01-22 18:25:12,432 - INFO - musicbot.bot | In bot.py::MainThread(4336), line 2575 in on_voice_state_update: 358357526582001664/Krekasso17#7913 has joined しがつのきょう/maki
+[826.4004797935485840] 2018-01-22 18:26:50,080 - DEBUG - musicbot.bot | In bot.py::MainThread(4336), line 781 in serialize_queue: Serializing queue for 359257673025191936
